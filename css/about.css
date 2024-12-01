@@ -1,0 +1,251 @@
+
+
+main {
+    padding-top: 129px;
+}
+.cart-body{
+    font-family: 'DM Sans', sans-serif;
+}
+.introduce-1 {
+    background: url('../image/cantin.png') no-repeat center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-content {
+    text-align: center;
+    color: white;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.play-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.about-left {
+   margin-left: 200px;
+}
+.services {
+    padding: 50px 0;
+}
+
+.services .row > div {
+    margin-bottom: 30px;
+}
+
+.services i {
+    color: #ad343e;
+    margin-bottom: 10px;
+}
+
+.services h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services p {
+    color: #adb29e;
+    font-size: 16px;
+}
+.info-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.info-text {
+    flex: 1;
+    margin-right: 100px;
+}
+
+.info-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.info-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.info-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-box {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 16px;
+    color: #777;
+}
+
+.info-image {
+    flex: 1;
+    max-width: 500px;
+}
+
+.info-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.customer-testimonials {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.testimonials-title {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.testimonial-quote {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ad343e;
+    margin-bottom: 15px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.testimonial-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.author-name {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+
+.author-location {
+    font-size: 12px;
+    color: #777;
+    margin: 0;
+}
+.testimonial-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonial-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    flex: 1 1 calc(33.33% - 30px);
+    max-width: 360px;
+    min-height: 360px;
+}
+
+.testimonial-card h3 {
+    color: #ad343e;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.testimonial-card p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.testimonial-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.testimonial-profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.testimonial-profile div {
+    text-align: left;
+}
+
+.testimonial-profile span {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.testimonial-profile small {
+    display: block;
+    color: #777;
+    font-size: 14px;
+}
