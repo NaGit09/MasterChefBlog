@@ -119,14 +119,21 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
+  text-align: center;
   font-size: 16px;
   color: #333333;
 }
 
-.contact-details div {
-  max-width: 250px;
+.detail-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.contact-details p {
+  margin: 0;
   line-height: 1.6;
-  text-align: center;
 }
 
 .contact-details a {
