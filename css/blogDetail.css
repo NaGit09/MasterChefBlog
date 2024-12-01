@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Article Detail</title>
-    <style>
-       body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -32,6 +25,7 @@ body {
 }
 
 .title {
+    margin-top: 140px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -136,60 +130,3 @@ body {
     color: #333; /* Thay đổi màu tiêu đề */
 }
 
-
-    </style>
-</head>
-<body>
-    <div class="blogDetail-container">
-        <!-- Title Section -->
-        <div class="title">
-            <h1>The secret tips & tricks to prepare a perfect burger & pizza for our customers</h1>
-        </div>
-
-        <!-- Main Image -->
-        <img class="main-image" src="./image/bunbo.png" alt="Main Dish">
-
-        <!-- Content Section 1 -->
-        <div class="content-section">
-            <h2>What do you need to prepare a homemade burger?</h2>
-            <p>Crafting a homemade burger is all about balancing the right ingredients, techniques, and flavors. Start with fresh buns to achieve the perfect combination of texture and taste.</p>
-            <p>Here are the steps:</p>
-            <ul>
-                <li>Pick fresh lettuce, tomatoes, and onions for your toppings.</li>
-                <li>Prepare your patties with a blend of ground beef and seasonings.</li>
-                <li>Cook the patty evenly and toast the buns lightly.</li>
-            </ul>
-        </div>
-
-        <!-- Content Section 2 with Image -->
-        <div class="content-section">
-            <h2>What are the key ingredients to make it delicious?</h2>
-            <p>The flavor of a burger depends on its balance of savory, tangy, and fresh elements. Don't forget the secret sauce, which can elevate your burger's taste.</p>
-            <img src="./image/potatalDishes.png" alt="Fries and Burgers">
-        </div>
-
-        <!-- Related Articles Section -->
-        <div class="related-articles">
-            <h3>Read More Articles</h3>
-            <div class="related-grid">
-                <div class="related-card">
-                    <img src="./image/shrinkSalt.png" alt="Article 1">
-                    <h4>How to prepare a delicious gluten-free sushi</h4>
-                </div>
-                <div class="related-card">
-                    <img src="./image/taco.png" alt="Article 2">
-                    <h4>5 gadgets every home chef needs</h4>
-                </div>
-                <div class="related-card">
-                    <img src="./image/potatalDishes.png" alt="Article 3">
-                    <h4>The secret to perfect air-fried chicken wings</h4>
-                </div>
-                <div class="related-card">
-                    <img src="./image/shrinkSalt.png" alt="Article 4">
-                    <h4>Quick and easy dessert recipes for families</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
