@@ -41,6 +41,7 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
+    margin-bottom: 100px;
 }
 .blog-card a {
     text-decoration: none; /* Bỏ gạch chân */
