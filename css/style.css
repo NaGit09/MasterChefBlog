@@ -27,8 +27,12 @@
   width: 164px;
   height: 64px;
 }
+.try-btn {
+  color: #fff;
+}
 .menu-btn {
-  background-color: #fff;
+  background-color: #ad343e;
+  color: #fff;
 }
 .menu {
   height: 700px;
@@ -134,6 +138,10 @@
 .left-image {
   grid-row: span 2; /* Hình bên trái chiếm 2 hàng */
 }
+.blog-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
 
 .image {
   object-fit: cover; /* Tự động chỉnh kích thước hình ảnh */
@@ -146,6 +154,9 @@
   display: flex;
   flex-direction: row;
   padding: 50px;
+}
+.delivery_left-img {
+  height: 600px;
 }
 .grid-holder {
   max-width: 745px;

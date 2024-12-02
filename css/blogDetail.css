@@ -4,14 +4,6 @@ body {
     padding: 0;
     line-height: 1.8;
     color: #333;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.8;
-    color: #333;
     background-color: #f4f4f4; /* Thêm màu nền nhẹ để nổi bật nội dung */
 }
 
@@ -23,7 +15,6 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Thêm hiệu ứng đổ bóng */
     border-radius: 10px; /* Bo góc container */
 }
-
 .title {
     margin-top: 140px;
     text-align: center;

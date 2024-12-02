@@ -12,5 +12,5 @@ window.addEventListener("scroll" , () => {
     prevScrollPos = CurrentScroll;
 });
 function sendRedirect (page) {
-window.location.href = "/html/" + page + ".html";
+window.location.href = "/" + page + ".html";
 }
