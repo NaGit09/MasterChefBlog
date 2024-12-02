@@ -1,12 +1,8 @@
 header {
     height: 129px;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     background-color: #fff;
     transition: transform ease 0.5s;
-    z-index: 99;
   }
   .header_top {
     background-color: #474747;
