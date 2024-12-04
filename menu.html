@@ -10,144 +10,370 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/NavbarAndFooter.css" />
+    <link rel="stylesheet" href="css/menu.css">
     <title>Menu</title>
     <style>
-        .button-top input {
-            padding: 5px 30px;
-        }
+   
     </style>
+
 </head>
 
 <body>
     <header class="fixed-top">
         <div class="header_top d-flex justify-content-around align-items-center">
-          <div class="header_left">
-            <span class="number_phone">
-              <i class="bi bi-telephone"></i>
-              0387822490
-            </span>
-            <span class="email">
-              <i class="bi bi-envelope"></i>
-              22130015@st.hcmuaf.edu.vn
-            </span>
-          </div>
-          <div class="header_right">
-            <i class="bi bi-twitter-x"></i>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-threads"></i>
-          </div>
+            <div class="header_left">
+                <span class="number_phone">
+                    <i class="bi bi-telephone"></i>
+                    0387822490
+                </span>
+                <span class="email">
+                    <i class="bi bi-envelope"></i>
+                    22130015@st.hcmuaf.edu.vn
+                </span>
+            </div>
+            <div class="header_right">
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-threads"></i>
+            </div>
         </div>
-        <div  class="header_footer mt-4 d-flex justify-content-around align-items-center">
-       <a href="index.html">    <img src="image/Logo.png" alt="" /></a>
-          <ul class="d-flex">
-            <li class="nav-item"><a class=" fw-thin" href="index.html">home</a></li>
-            <li class="nav-item"><a class="fw-thin" href="about.html">about</a></li>
-            <li class="nav-item"><a class="fw-thin active" href="menu.html">menu</a></li>
-            <li class="nav-item"><a class="fw-thin" href="blog.html">blog</a></li>
-            <li class="nav-item"><a class="fw-thin" href="contact.html">contact</a></li>
-          </ul>
+        <div class="header_footer mt-4 d-flex justify-content-around align-items-center">
+            <a href="index.html"> <img src="image/Logo.png" alt="" /></a>
+            <ul class="d-flex">
+                <li class="nav-item"><a class=" fw-thin" href="index.html">home</a></li>
+                <li class="nav-item"><a class="fw-thin" href="about.html">about</a></li>
+                <li class="nav-item"><a class="fw-thin active" href="menu.html">menu</a></li>
+                <li class="nav-item"><a class="fw-thin" href="blog.html">blog</a></li>
+                <li class="nav-item"><a class="fw-thin" href="contact.html">contact</a></li>
+            </ul>
         </div>
-      </header>
-    <main class=" container " style="position: relative; margin-top: 50px;">
-        <div class="container d-flex" style="flex-direction: column;">
+    </header>
+    <main class="  container-main ">
+        <div class="container container-main-card d-flex" style="margin-top: 30px; margin-bottom: 30px;">
 
             <div class="d-flex justify-content-center mt-3">
-                <h1 style="font-size: 76px;">Our Menu</h1>
+                <h1 class="text-h1-text">Our Menu</h1>
 
             </div>
 
             <div class="d-flex justify-content-center    mt-3">
 
-                <p style="text-wrap: wrap;">We consider all drivers of change gives you the components
+                <p class="text-center" style=" font-size: large;  text-wrap: wrap; width: 60%;">We consider all drivers
+                    of change gives you the components
                     you need to change to create a truly happens.
                 </p>
             </div>
 
-            <div class="d-flex justify-content-center mt-5 gap-3">
+            <div class="d-flex justify-content-center mt-5 gap-3 " style="flex-basis: 1;  padding-top: 30px;">
 
-                <div class="button-top">
-                    <input class="btn btn-primary" type="button" value="Input">
+                <div class="button-top button-color buttonfirst">
+                    <button type="button" class="btn btn-primary">All</button>
                 </div>
-                <div class="button-top">
-                    <input class="btn btn-primary" type="button" value="Input">
-                </div>
-                <div class="button-top">
-                    <input class="btn btn-primary" type="button" value="Input">
-                </div>
-                <div class="button-top">
-                    <input class="btn btn-primary" type="button" value="Input">
-                </div>
-                <div class="button-top">
-                    <input class="btn btn-primary" type="button" value="Input">
 
+                <div class="button-top button-color button-dark">
+                    <button type="button" class="btn btn-primary">Breakfast</button>
+                </div>
+                <div class="button-top button-color button-dark">
+
+                    <button type="button" class="btn btn-primary">Main Dishes</button>
+                </div>
+                <div class="button-top button-color button-dark">
+                    <button type="button" class="btn btn-primary">Drinks</button>
+
+                </div>
+                <div class="button-top button-color button-dark">
+                    <button type="button" class="btn btn-primary">Desserts</button>
                 </div>
             </div>
 
 
         </div>
-        <div class="container mt-5" >
-            <div class="row" style="padding-top: 10px;" >
-                <div class="col-lg-3" >
-                    <div class="card" style="width: 18rem; height: 20rem;">
-                        <img src="./image/" class="card-img-top" alt="...">
+        <div class="container mt-3" style="margin-bottom: 100px;">
+            <div class="row row-padding row-margin row-price row-diffenrent">
+                <div class="col-lg-3 col-md-3 mt-5">
+                    <div class="card card-width card-height" data-bs-toggle="modal" data-bs-target="#productModal">
+                        <img src="./image/omlet.png" class="card-img-top" alt="..." style="width: 100%; height: 100%;">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title text-center">$ 9.99</h5>
+                            <h5 class="card-title text-center mt-3">Fried Eggs</h5>
+                            <p class="card-text text-center mt-3">Made with eggs, lettuce,
+                                salt, oil and other ingredeints.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card" style="width: 18rem; height: 20rem;">
+                <div class="col-lg-3 col-md-3  mt-5">
 
-                        <img src="..." class="card-img-top" alt="...">
+                    <div class="card card-width card-height">
+                        <img src="./image/pizzacheese.png" class="card-img-top" alt="..."
+                            style="width: 100%; height: 100%;">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title text-center">$ 15.99</h5>
+                            <h5 class="card-title text-center mt-3">Hawaiian Pizza</h5>
+                            <p class="card-text text-center mt-3">Made with eggs, lettuce,
+                                salt, oil and other ingredeints.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3" >
-                    <div class="card" style="width: 18rem; height: 20rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                <div class="col-lg-3 col-md-3  mt-5">
+                    <div class="card card-width card-height">
+                        <img src="./image/van.png" class="card-img-top" alt="..." style="width: 100%; height: 100%;">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title text-center">$ 7.25</h5>
+                            <h5 class="card-title text-center mt-3">Martinez Cocktail</h5>
+                            <p class="card-text text-center mt-3">Made with eggs, lettuce,
+                                salt, oil and other ingredeints.</p>
                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3  mt-5">
+                    <div class="card card-width card-height">
+                        <img src="./image/cheeseCake.png" class="card-img-top" alt="..."
+                            style="width: 100%; height: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">$ 20.99</h5>
+                            <h5 class="card-title text-center mt-3">Butterscotch Cake</h5>
+                            <p class="card-text text-center mt-3">Made with eggs, lettuce,
+                                salt, oil and other ingredeints.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <div class="card card-width card-height">
+                        <img src="./image/cucumberMix.png" class="card-img-top" alt="..."
+                            style="width: 100%; height: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">$ 12.99</h5>
+                            <h5 class="card-title text-center mt-3">Classic Waffles</h5>
+                            <p class="card-text text-center mt-3">Made with eggs, lettuce,
+                                salt, oil and other ingredeints.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <div class="card card-width card-height">
+                        <img src="./image/chocolateMix.png" class="card-img-top" alt="..."
+                            style="width: 100%; height: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">$ 5.89</h5>
+                            <h5 class="card-title text-center mt-3">Mind Lemonade</h5>
+                            <p class="card-text text-center mt-3">Made with eggs, lettuce,
+                                salt, oil and other ingredeints.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <div class="card card-width card-height">
+                        <img src="./image/buggerFullTopping.png" class="card-img-top" alt="..."
+                            style="width: 100%; height: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">$ 18.05</h5>
+                            <h5 class="card-title text-center mt-3">Chocolate Icecream</h5>
+                            <p class="card-text text-center mt-3">Made with eggs, lettuce,
+                                salt, oil and other ingredeints.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <div class="card card-width card-height">
+                        <img src="./image/pancakeFruit.png" class="card-img-top" alt="..."
+                            style="width: 100%; height: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">$ 12.55</h5>
+                            <h5 class="card-title text-center mt-3">Cheese Burger</h5>
+                            <p class="card-text text-center mt-3">Made with eggs, lettuce,
+                                salt, oil and other ingredeints.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="mt-4" style="height: auto; background-color: #F9F9F7;  padding: 100px 0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4  d-flex mt-5" style="flex-direction: column;">
+                        <h5 class="card-title " style="font-size: 50px;">You can order through apps</h5>
+                        <p class="card-text mt-3" style="width: 70%;">Lorem ipsum dolor sit amet consectetur
+                            adipiscing elit enim bibendum sed et aliquet aliquet risus tempor semper.
+                        </p>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="" style="height: 100%;">
+                            <div class="row row-bottom-shipper">
+                                <div class="col-lg-4 shipper-image d-flex">
+                                    <div class="image-shipper image-app">
+                                        <img src="./image/uberEats.png" alt="">
+                                    </div>
+                                    <div class="image-shipper image-app">
+
+                                        <img src="./image/grubhub.png" alt="">
+                                    </div>
+                                    <div class="image-shipper image-app">
+
+                                        <img src="./image/postmates.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-bottom-shipper height">
+                                <div class="col-lg-4 d-flex shipper-image-special">
+                                    <div class="image-shipper image-app">
+
+                                        <img src="./image/doordash.png" alt="">
+                                    </div>
+                                    <div class="image-shipper image-app">
+
+                                        <img src="./image/foodpanda.png" alt="">
+                                    </div>
+                                    <div class="image-shipper image-app">
+                                        <img src="./image/deliveroo.png" style="height: 30px;" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-bottom-shipper">
+                                <div class="col-lg-4 shipper-image d-flex">
+
+                                    <div class="image-shipper image-app">
+
+                                        <img src="./image/instacart.png" alt="">
+                                    </div>
+                                    <div class="image-shipper image-app">
+
+                                        <img src="./image/justEat.png" alt="">
+                                    </div>
+                                    <div class="image-shipper image-app">
+
+                                        <img src="./image/didiFood.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+            <div class="modal-dialog custom-modal-dialog">
+                <div class="modal-content">
+                    <!-- Sắp xếp các phần tử theo Z-pattern -->
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="productModalLabel">Fried Eggs</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <!-- Bố trí theo Z-pattern -->
+                            <div class="col-12 text-center mb-3">
+                                <!-- Hình ảnh nằm ở phần đầu của Z-pattern -->
+                                <img src="./image/omlet.png" class="img-fluid" alt="Omlet">
+                            </div>
+                            <div class="col-12 text-left">
+                                <!-- Thông tin sản phẩm nằm ở phần giữa Z-pattern -->
+                                <p><strong>Price:</strong> $9.99</p>
+                                <p><strong>Description:</strong> Made with eggs, lettuce, salt, oil, and other
+                                    ingredients.</p>
+
+                                <!-- Đánh giá sản phẩm -->
+                                <p><strong>Rating:</strong>
+                                    <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+                                    (4/5 based on 123 reviews)
+                                </p>
+
+                                <!-- Số lượng mua -->
+                                <div class="mb-3">
+                                    <label for="quantity" class="form-label"><strong>Quantity:</strong></label>
+                                    <input type="number" id="quantity" class="form-control" min="1" value="1"
+                                        style="width: 100px;">
+                                </div>
+
+                                <!-- Thành phần dinh dưỡng -->
+                                <p><strong>Nutrition Facts (per serving):</strong></p>
+                                <ul>
+                                    <li>Calories: 250</li>
+                                    <li>Protein: 15g</li>
+                                    <li>Carbohydrates: 5g</li>
+                                    <li>Fat: 20g</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- Nút hành động (CTA) ở cuối Z-pattern -->
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
+
     </main>
+    <footer class="footer d-flex align-items-start justify-content-start">
+        <div class="footer-wrap container">
+            <div class="row">
+                <div class="col info">
+                    <div class="d-flex align-items-center gap-4">
+                        <img src="image/footerIcon.png" alt="" />
+                        <span class="brand">Bistro Bliss</span>
+                    </div>
+                    <p class="footer-desc">
+                        In the new era of technology we look a in the future with
+                        certainty and pride to for our company and.
+                    </p>
+                    <div class="footer-icon">
+                        <i class="rounded-circle bi-twitter-x"></i>
+                        <i class="rounded-circle bi-facebook"></i>
+                        <i class="rounded-circle bi-instagram"></i>
+                        <i class="rounded-circle bi-threads"></i>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <p class="footer-title">page</p>
+                                <ul>
+                                    <li>home</li>
+                                    <li>about</li>
+                                    <li>menu</li>
+                                    <li>pricing</li>
+                                    <li>blog</li>
+                                    <li>contact</li>
+                                    <li>delivert</li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <p class="footer-title">utility pages</p>
+                                <ul>
+                                    <li>Start here</li>
+                                    <li>Styleguide</li>
+                                    <li>Password Protected</li>
+                                    <li>404 Not Found</li>
+                                    <li>Licenses</li>
+                                    <li>Changelog</li>
+                                    <li>View More</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="footer-title">Follow Us On Instagram</p>
+                    <div class="grid-container">
+                        <img class="rounded" src="image/cheese.png" alt="" />
+                        <img class="rounded" src="image/potatalFries.png" alt="" />
+                        <img class="rounded" src="image/salad.png" alt="" />
+                        <img class="rounded" src="image/panCake.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
 
 </html>

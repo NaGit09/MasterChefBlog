@@ -1,0 +1,138 @@
+/* ======================
+        MAIN
+    ====================== */
+
+.container-main {
+    position: relative;
+    margin-top: 190px;
+}
+
+.container.container-main-card.d-flex {
+    flex-direction: column;
+    width: 780px;
+    height: 270px;
+}
+
+.text-h1-text {
+    font-size: 76px;
+}
+
+.button-top button {
+
+    padding: 5px 30px;
+
+}
+
+.button-top.button-color.buttonfirst button {
+    background-color: #AD343E;
+    border: #AD343E 1px solid;
+    border-radius: 20px;
+    font-weight: 900;
+}
+.button-top.button-color.button-dark button {
+    background-color: #DBDFD0;
+    border: #DBDFD0 1px solid;
+    border-radius: 20px;
+    color: black;
+    font-weight: 900;
+    
+}
+
+/* CARD */
+.row.row-padding.row-margin {
+    padding: 0;
+    margin: 0;
+}
+.row.row-padding.row-margin.row-price.row-diffenrent .col-lg-3 .card.card-width.card-height .card-body h5.card-title.text-center{
+    margin-top: 10px;
+    color: #AD343E;
+}
+.row.row-padding.row-margin.row-price.row-diffenrent .col-lg-3 .card.card-width.card-height .card-body h5.card-title.text-center.mt-3{
+    color: #2C2F24;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.row.row-padding.row-margin.row-price.row-diffenrent .col-lg-3 .card.card-width.card-height .card-body p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.card.card-width.card-height {
+    width: 18rem;
+    height: 25rem;
+    padding: 0;
+    margin: 0;
+}
+
+/* click card */
+.custom-modal {
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1050;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+}
+
+.modal-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.modal-body {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: 2px solid #ddd;
+}
+
+.btn-close {
+    color: #dc3545;
+    font-size: 1.2rem;
+}
+
+.btn-close:hover {
+    color: #c82333;
+}
+
+.custom-modal-dialog {
+    margin-top: 200px;
+}
+
+/* SECTION SHIPPER */
+.row.row-bottom-shipper {
+    margin-bottom: 20px;
+}
+
+.row.row-bottom-shipper.height {}
+
+.col-lg-4.shipper-image.d-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.col-lg-4.shipper-image-special.d-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.image-shipper.image-app {
+    padding: 20px 20px;
+    width: auto;
+    background-color: #FFFFFF;
+}
