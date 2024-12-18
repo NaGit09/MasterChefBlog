@@ -6,6 +6,48 @@ main {
 .cart-body{
     font-family: 'DM Sans', sans-serif;
 }
+.about {
+    max-width: 90%;
+    gap: 50px;
+    margin-bottom: 90px;
+}
+.about_img {
+    max-width: 100%;
+    height: auto;
+}
+.about-title {
+    font-size: 60px;
+    width: 557px;
+    height: 121px;
+    line-height: 60px;
+}
+.about-right {
+    margin-left: 50px;
+    width: 557px;
+    height: 457px;
+}
+.about-desc {
+    margin: 20px 0;
+    line-height: 28px;
+    font-size: 18px;
+}
+.about-left {
+    position: relative;
+}
+.about-message {
+    position: absolute;
+    right: -40px;
+    bottom: -20px;
+    background-color: #474747;
+}
+.about-message p {
+    font-size: 16px;
+    color: #fff;
+}
+.about-card-title {
+    font-size: 24px;
+    color: #fff;
+}
 .introduce-1 {
     background: url('../image/cantin.png') no-repeat center/cover;
     height: 500px;
@@ -228,8 +270,8 @@ main {
 }
 
 .testimonial-profile img {
-    width: 60px;
-    height: 60px;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
     margin-right: 15px;
 }
@@ -248,4 +290,105 @@ main {
     display: block;
     color: #777;
     font-size: 14px;
+}
+/* Mobile First Design */
+
+/* Cho màn hình nhỏ hơn 768px (Tablet và Mobile) */
+@media (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-left {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about-right {
+        margin-left: 0;
+        width: auto;
+    }
+
+    .about-title {
+        font-size: 36px;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .about-desc {
+        font-size: 16px;
+    }
+
+    .services .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services .row > div {
+        margin-bottom: 20px;
+    }
+
+    .info-container {
+        flex-direction: column;
+    }
+
+    .info-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .testimonial-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .testimonial-card {
+        max-width: 100%;
+    }
+}
+
+/* Cho màn hình nhỏ hơn 576px (Mobile nhỏ) */
+@media (max-width: 576px) {
+    .about-title {
+        font-size: 28px;
+    }
+
+    .intro-title {
+        font-size: 32px;
+    }
+
+    .services h3 {
+        font-size: 20px;
+    }
+
+    .services p {
+        font-size: 14px;
+    }
+
+    .info-text h2 {
+        font-size: 28px;
+    }
+
+    .info-box h3 {
+        font-size: 32px;
+    }
+
+    .testimonial-title {
+        font-size: 28px;
+    }
+
+    .testimonial-card h3 {
+        font-size: 18px;
+    }
+
+    .testimonial-card p {
+        font-size: 14px;
+    }
 }
