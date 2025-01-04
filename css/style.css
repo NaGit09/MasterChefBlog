@@ -34,6 +34,7 @@
   background-color: #ad343e;
   color: #fff;
 }
+
 .menu {
   height: 700px;
   width: 100%;
@@ -68,8 +69,18 @@
   font-size: 55px;
 }
 .Explore {
-  color: #ad343e;
+ 
+  background-color: #ad343e;
 }
+.Explore:hover {
+  background-color: #8b2b32;
+  font-weight: bold;
+}
+.card-img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
 .about {
   max-width: 90%;
   gap: 50px;
@@ -118,7 +129,10 @@
   font-size: 55px;
 }
 .event-card {
-  width: 18rem;
+  width: 18rem;  
+}
+.card:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 .event-title {
   margin: 20px 0;
