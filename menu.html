@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <title>Menu</title>
     <style>
-   
+
     </style>
 
 </head>
@@ -302,6 +302,63 @@
                     <div class="modal-footer">
                         <!-- Nút hành động (CTA) ở cuối Z-pattern -->
                         <button type="button" class="btn btn-primary">Add to Cart</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#checkoutModal">
+                            Checkout
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="checkoutModal" tabindex="-1" aria-labelledby="checkoutModalLabel" aria-hidden="true">
+            <div class="modal-dialog custom-modal-dialog" style=" margin-top: 5vh;">
+                <div class="modal-content">
+                    <!-- Header của Modal -->
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="checkoutModalLabel">Checkout Details</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <!-- Hình ảnh sản phẩm nằm ở phần đầu của F-pattern -->
+                            <div class="col-12 text-center mb-3">
+                                <img src="./image/omlet.png" class="img-fluid" alt="Omlet">
+                            </div>
+                            <div class="col-12 text-left">
+                                <!-- Thông tin thanh toán nằm ở phần giữa F-pattern -->
+                                <p><strong>Product Name:</strong> Fried Eggs</p>
+                                <p><strong>Price:</strong> $9.99</p>
+                                <p><strong>Quantity:</strong> 1</p>
+        
+                                <!-- Tổng tiền -->
+                                <p><strong>Total:</strong> $9.99</p>
+        
+                                <!-- Thông tin thanh toán -->
+                                <h6><strong>Payment Details:</strong></h6>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label"><strong>Name on Card:</strong></label>
+                                    <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cardNumber" class="form-label"><strong>Card Number:</strong></label>
+                                    <input type="text" id="cardNumber" class="form-control" placeholder="Enter your card number" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="expiryDate" class="form-label"><strong>Expiry Date:</strong></label>
+                                    <input type="month" id="expiryDate" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cvv" class="form-label"><strong>CVV:</strong></label>
+                                    <input type="text" id="cvv" class="form-control" placeholder="Enter CVV" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- Nút thanh toán (CTA) -->
+                        <button type="button" class="btn btn-success">Pay Now</button>
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
@@ -372,7 +429,6 @@
     </footer>
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
 
 </body>
 
