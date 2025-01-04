@@ -3,6 +3,73 @@
 main {
     padding-top: 129px;
 }
+.team-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.team-title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 220px;
+    padding: 20px;
+}
+
+.team-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.team-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 5px;
+    color: #333;
+}
+
+.team-card p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.contact-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+}
+
 .cart-body{
     font-family: 'DM Sans', sans-serif;
 }
