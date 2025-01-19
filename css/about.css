@@ -88,15 +88,16 @@ main {
     height: 121px;
     line-height: 60px;
 }
-.about-right {
-    margin-left: 50px;
-    width: 557px;
-    height: 457px;
-}
+
 .about-desc {
     margin: 20px 0;
     line-height: 28px;
     font-size: 18px;
+}
+.about-right {
+    margin-left: 50px;
+    width: 557px;
+    height: 457px;
 }
 .about-left {
     position: relative;
