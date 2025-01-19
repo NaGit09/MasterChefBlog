@@ -23,45 +23,44 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="fixed-top">
-      <div class="header_top d-flex justify-content-around align-items-center">
-        <div class="header_left">
-          <a class="phone text-light" href="tel:0387822490">
-            <i class="bi bi-telephone"></i>
-            0387822490
-          </a>
-          <a class="email text-light" href="mailto:22130015@st.hcmuaf.edu.vn">
-            <i class="bi bi-envelope"></i>
-            22130015@st.hcmuaf.edu.vn
-          </a>
-        </div>
-        <div class="header_right">
-          <i class="bi bi-twitter-x"></i>
-          <i class="bi bi-facebook"></i>
-          <i class="bi bi-instagram"></i>
-          <i class="bi bi-threads"></i>
-        </div>
+  <header class="fixed-top">
+    <div class="header_top d-flex justify-content-around align-items-center">
+      <div class="header_left">
+        <a class="phone text-light" href="tel:0387822490">
+          <i class="bi bi-telephone"></i>
+          0387822490
+        </a>
+        <a class="email text-light" href="mailto:22130015@st.hcmuaf.edu.vn">
+          <i class="bi bi-envelope"></i>
+          22130015@st.hcmuaf.edu.vn
+        </a>
       </div>
-      <div
-        class="header_footer mt-4 d-flex justify-content-around align-items-center"
-      >
-        <a href="index.html"> <img src="image/Logo.png" alt="" /></a>
-        <ul class="d-flex">
-          <li class="nav-item">
-            <a class="active fw-thin" href="index.html">home</a>
-          </li>
-          <li class="nav-item">
-            <a class="fw-thin" href="about.html">about</a>
-          </li>
-          <li class="nav-item"><a class="fw-thin" href="menu.html">menu</a></li>
-          <li class="nav-item"><a class="fw-thin" href="blog.html">blog</a></li>
-          <li class="nav-item">
-            <a class="fw-thin" href="contact.html">contact</a>
-          </li>
-          <li class="nav-item"><a class="fw-thin">Try now !</a></li>
-        </ul>
+      <div class="header_right">
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-threads"></i>
       </div>
-    </header>
+    </div>
+    <div class="header_footer mt-4 d-flex justify-content-around align-items-center">
+      <a href="index.html"> <img src="image/Logo.png" alt="" /></a>
+      <ul class="d-flex">
+        <li class="nav-item"><a class="active fw-thin" href="index.html">home</a></li>
+        <li class="nav-item"><a class="fw-thin" href="about.html">about</a></li>
+        <li class="nav-item"><a class="fw-thin" href="menu.html">menu</a></li>
+        <li class="nav-item"><a class="fw-thin" href="blog.html">blog</a></li>
+        <li class="nav-item"><a class="fw-thin" href="contact.html">contact</a></li>
+        <li class="nav-item"><a class="fw-thin">Try now</a></li>
+      </ul>
+      <button
+              type="button"
+              class="forgot-password-btn fw-bold fs-5 rounded-pill"
+              onclick="sendRedirect('forgotpassword')">
+        Forgot password
+      </button>
+    </div>
+  </header>
+
     <main class="absolute-center flex-lg-column">
       <div class="introduce absolute-center">
         <h1 class="title text-center">best food for your taste</h1>
@@ -84,6 +83,7 @@
           >
             Try now
           </button>
+
         </div>
       </div>
       <div class="menu absolute-center flex-lg-column">

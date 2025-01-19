@@ -82,3 +82,24 @@ header {
     padding: 10px;
     border-radius: 16px;
   }
+.forgot-password-btn {
+  background-color: transparent;
+  color: #ad343e;
+  border: 2px solid #ad343e;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.forgot-password-btn:hover {
+  background-color: #ad343e;
+  color: white;
+  border-color: #ad343e;
+}
+
+.forgot-password-btn:focus {
+  outline: none; /* Loại bỏ outline khi focus */
+}
